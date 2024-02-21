@@ -1,0 +1,18 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": "../../",
+  "testEnvironment": "node",
+  "testRegex": "^(?!.*(?:controller|.repository)).*.spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s?$": [
+      "@swc/jest"
+    ]
+  },
+  "setupFiles": [
+    "./config/jest/jest-setup.ts"
+  ]
+}

@@ -1,0 +1,5 @@
+export enum PolicyTypes {
+	COOKIES = 'COOKIES',
+	PRIVACY = 'PRIVACY',
+	TERMS_AND_CONDITIONS = 'TERMS_AND_CONDITIONS',
+}
